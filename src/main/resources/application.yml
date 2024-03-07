@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: reto-advance-01-backend
+  datasource:
+    url: jdbc:h2:mem:reto-advance-backend;Mode=MySQL
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    defer-datasource-initialization: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        web-allow-others: true

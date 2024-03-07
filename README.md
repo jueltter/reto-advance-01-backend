@@ -1,6 +1,6 @@
 # reto-advance-01-backend
 
-reto-advance-01-backend es el backend del ejercicio planteado. Utiliza el framework Spring y cuenta con dos endpoints: vehiculos y restricciones.
+reto-advance-01-backend es el backend del ejercicio planteado. Utiliza el framework Spring y la base de datos en memoria H2, cuenta con dos endpoints: vehiculos y restricciones.
 
 ## Prerequisitos
 1. Tener instalado java 17
@@ -12,10 +12,10 @@ reto-advance-01-backend es el backend del ejercicio planteado. Utiliza el framew
 ```bash
 # clonar el repositorio
 git clone https://github.com/jueltter/reto-advance-01-backend.git
-# cambiarse a la rama master
-git checkout master
 # acceder a la carpeta del proyecto
 cd ./reto-advance-01-backend
+# cambiarse a la rama master
+git checkout master
 # generar archivo jar, se puede ejecutar tambien el wrapper ./mvnw clean package
 mvn clean package
 # ejecutar jar
